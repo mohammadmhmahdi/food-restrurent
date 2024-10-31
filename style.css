@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ #hero{
+    height: 800px;
+    background-image:linear-gradient(00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .section-1{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.subtitle{
+   color: rgba(245, 245, 245, 0.774);
+   margin: 0 auto;
+}
+.section-1> h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    line-height: 60px;
+}
+.section-1 > p{
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    line-height: 30px;
+}
+.primary-button{
+    width: 279px;
+    height: 66px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(99, 196, 2);
+    font-weight: bolder;
+    border: none;
+}
+#card{
+    width:1720px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+    gap: 30px;
+}
+.card-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+.card-head > h3{
+    font-size: 25px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.589);
+}
+.card-head>h1{
+    font-size: 50px;
+    margin: 0 auto;
+}
+.card-head>h1:last-child{
+    text-align: center;
+}
+.food-card{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 572px;
+    gap: 30px;
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 572px;
+    gap: 30px;
+}
+.image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 572px;
+    gap: 30px;
+}
+.card-button{
+    width: 187px;
+    height: 57px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgba(82, 195, 3, 0.15);
+}
+.discount{
+    font-size:50px;
+    margin: 0 auto;
+}
+.contact{
+    display: flex;
+    width: 1720px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    gap: 18px;
+    border: 2px solid black;
+
+}
+
+.contact-2{              
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.contact-2>h1{
+    font-size: 45px;
+    text-align: center;
+}
+.contact-2>h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.footer{
+    background-image:linear-gradient(00deg, rgba(245, 240, 240, 0.692) 100%,rgba(16, 16, 16, 0) 100%), url(/assets/social-bg.png);
+    width: 1720px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    gap: 20px;
+}
+.end{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.end>h2{
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.end>p{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.473);
+}
+.end>h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.644);
+}
